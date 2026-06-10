@@ -1,0 +1,90 @@
+body{
+    background:linear-gradient(
+        135deg,
+        #0f172a 0%,
+        #1e3a8a 50%,
+        #2563eb 100%
+    );
+    min-height:100vh;
+    color:#fff;
+}
+
+.bg{
+    position:fixed;
+    inset:0;
+    z-index:0;
+    pointer-events:none;
+    overflow:hidden;
+}
+
+.blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:.08;
+}
+
+.blob1{
+    width:350px;
+    height:350px;
+    background:#60a5fa;
+    top:-100px;
+    left:-100px;
+}
+
+.blob2{
+    width:300px;
+    height:300px;
+    background:#3b82f6;
+    bottom:-100px;
+    right:-100px;
+}
+
+.blob3{
+    width:250px;
+    height:250px;
+    background:#93c5fd;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:.05;
+}
+
+.card,
+.weatherCard,
+.statCard,
+.forecastCard{
+    background:rgba(255,255,255,.12);
+    border:1px solid rgba(255,255,255,.15);
+    backdrop-filter:blur(10px);
+    border-radius:16px;
+}
+
+h1,h2,h3,
+.temp,
+.temperature,
+.value{
+    color:#fff;
+}
+
+p,
+.label,
+.desc,
+.subtitle{
+    color:rgba(255,255,255,.85);
+}
+
+button{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    padding:10px 16px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    background:#1d4ed8;
+}

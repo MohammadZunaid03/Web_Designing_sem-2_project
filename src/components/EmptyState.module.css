@@ -1,0 +1,6 @@
+.box   { text-align:center; padding:3.5rem 2rem; }
+.globe { font-size:4.5rem; animation:floatIcon 4s ease-in-out infinite; margin-bottom:1rem; }
+.title { font-family:'Space Grotesk',sans-serif; font-size:1.6rem; font-weight:700; margin-bottom:0.5rem; }
+.sub   { color:var(--text-muted); font-size:0.95rem; margin-bottom:1.5rem; }
+.tips  { display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; }
+.tip   { padding:0.35rem 0.9rem; border-radius:999px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); font-size:0.82rem; color:rgba(255,255,255,0.6); }

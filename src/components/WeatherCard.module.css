@@ -1,0 +1,64 @@
+.card{
+  margin-bottom:1.5rem;
+}
+
+.top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  gap:1rem;
+  margin-bottom:1.5rem;
+}
+
+.loc{
+  font-size:1rem;
+  color:rgba(255,255,255,.75);
+  margin-bottom:.25rem;
+}
+
+.desc{
+  font-size:1.1rem;
+  color:rgba(255,255,255,.85);
+  margin-bottom:.6rem;
+  font-weight:500;
+}
+
+.temp{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:5.5rem;
+  font-weight:700;
+  line-height:1;
+  color:#ffffff;
+}
+
+.unit{
+  font-size:2.5rem;
+}
+
+.feels{
+  color:rgba(255,255,255,.70);
+  font-size:.9rem;
+  margin-top:.4rem;
+}
+
+.emoji{
+  font-size:5rem;
+  line-height:1;
+}
+
+.statsGrid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  gap:.85rem;
+}
+
+@media(max-width:600px){
+  .temp{
+    font-size:4rem;
+  }
+
+  .emoji{
+    font-size:4rem;
+  }
+}
